@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Cart - TechGear</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>TechGear</h1>
+        <a href="index.html">Back to Shop</a>
+    </nav>
+
+    <main>
+        <h2>Your Cart</h2>
+        <div id="cart-items"></div>
+        <div class="cart-summary">
+            <h3>Total: $<span id="cart-total">0</span></h3>
+            <button id="checkout-btn" onclick="location.href='checkout.html'">Begin Checkout</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+    <script>displayCart();</script>
+</body>
+</html>
